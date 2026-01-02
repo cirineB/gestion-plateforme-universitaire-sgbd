@@ -29,11 +29,13 @@ La base de données repose sur les entités suivantes :
 Les relations entre les entités sont assurées par des clés primaires et des clés étrangères conformément au modèle logique de données (MLD).
 
 ---
+
 ## Structure du projet
 database/
 ├── Tables.sql -- Création des tables et des contraintes (PK / FK)
 ├── insertion.sql -- Insertion des données (étudiants, enseignants, cours, inscriptions, examens, notes)
 └── requetes.sql -- Requêtes SQL d’exploitation (SELECT)
+
 ---
 
 ## Installation et exécution
