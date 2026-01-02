@@ -34,7 +34,7 @@ Les relations entre les entités sont assurées par des clés primaires et des c
 database/
 ├── Tables.sql -- Création des tables et des contraintes (PK / FK)
 ├── insertion.sql -- Insertion des données (étudiants, enseignants, cours, inscriptions, examens, notes)
-└── requetes.sql -- Requêtes SQL d’exploitation (SELECT) 
+└── requetes.sql -- Requêtes SQL d’exploitation (SELECT)
 
 
 ---
@@ -46,15 +46,15 @@ Dans PostgreSQL :
 ```sql
 CREATE DATABASE universite;
 
-### Exécution des scripts
+Exécution des scripts
 
 Exécuter les fichiers dans l’ordre suivant :
-
 \i Tables.sql
 \i insertion.sql
 \i requetes.sql
 
-### Technologies utilisées
+Technologies utilisées
 
 PostgreSQL : Système de gestion de base de données relationnelle
+
 SQL : Langage de manipulation et de requête des données
