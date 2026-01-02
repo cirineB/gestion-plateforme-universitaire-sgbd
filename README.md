@@ -32,6 +32,7 @@ Les relations entre les entités sont assurées par des clés primaires et des c
 
 ## Structure du projet
 database/
+
 ├── Tables.sql -- Création des tables et des contraintes (PK / FK)
 
 ├── insertion.sql -- Insertion des données (étudiants, enseignants, cours, inscriptions, examens, notes)
